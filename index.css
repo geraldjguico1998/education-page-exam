@@ -15,6 +15,11 @@ html {
  padding-right:8%!important;
 }
 
+.cs-container-height{
+ padding-top:150px!important;
+ padding-bottom:150px!important;
+}
+
 .cs-gray-bg{
   background-color: #eeeeee;
   padding: 50px 0px!important;
@@ -27,6 +32,11 @@ html {
 
 
 /* Nav */
+
+.cs-nav{
+  margin-bottom:10px!important;
+}
+
 .cs-ul li{
   margin-left:2rem;
   font-size:0.9rem!important;
@@ -76,7 +86,7 @@ html {
 
 
 .cs-hero {
-  min-height: 600px;
+  min-height: 800px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,11 +104,11 @@ html {
 #hero img{
   background-color: #ffd32c!important;
   object-fit: cover;
-  width: 450px;
-  height:550px;
+  width: 600px;
+  height:700px;
   position: relative;
   left:0px;
-  top:60px;
+  top:100px;
   border-radius: 5px
 }
 
@@ -168,9 +178,20 @@ html {
   color: #555;
 }
 
+#categories span{
+  font-size:3rem;
+  margin-bottom:20px;
+}
+
 
 
 /* About Section */
+
+#about{
+  padding-top:150px!important;
+  padding-bottom:150px!important;
+}
+
 #about h6 {
   font-size: 1rem;
   font-weight: 500;
